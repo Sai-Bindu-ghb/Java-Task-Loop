@@ -9,11 +9,13 @@ public class Factorial {
 			fact=fact*i;
 			
 		}
-		System.out.println(fact);
+		System.out.print("factorial of"+n);
+		System.out.println(" is " +fact);
 	}
+	
 
 	public static void main(String[] args) {
-		getFactorial(5);
+		getFactorial(7);
 	}
 
 }
